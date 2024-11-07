@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #202224;
+    font-family: "Nunito Sans";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.114px;
+    background-color: #F5F6FA;
+  }
+  
+  
+  header {
+    background-color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .user-info img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .user-info h4 {
+    margin: 0;
+  }
+  
+  .user-info p {
+    margin: 0;
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+
+  .sidebar {
+    width: 200px;
+    background-color: #ffffff;
+    position: absolute;
+    height: 135%;
+    overflow: auto;
+    padding: 13px;
+  }
+
+  .sidebar a {
+    display: block;
+    color: rgb(0, 0, 0);
+    padding: 12px;
+    text-decoration: none;
+  }
+
+  .sidebar a.active {
+    background-color: #4880FF;
+    color: black;
+    border-radius: 8px;
+  }
+
+  .sidebar a:hover {
+    background-color: #b5c3e3;
+    color: black;
+    border-radius: 8px;
+  }
+
+.content {
+    background: #ffffff;
+    margin-left: 215px;
+    padding: 20px;
+    color: #ffffff;
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.114px;
+}
+
+h1{
+  position: absolute;
+  left: 260px;
+  top: 65px;
+  font-size: 34px;
+}
